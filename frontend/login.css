@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins','sans-serif';
+}
+
+body {
+    background:rgba(0, 0, 0, 0.361)url(https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+background-blend-mode: darken;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+.formbody{
+    margin-top: 85px;
+    height: 490px;
+    width: 450px;
+    background-color:#E3F2FD;
+    border-radius: 10px;
+}
+.formbody span h1{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 575;
+    letter-spacing: 0.5px;
+}
+.form .input{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+}
+.input #inp-email,.input #inp-pass{
+    border: none;
+    border-bottom:2px solid rgba(61, 43, 226, 0.671);
+    border-top:3px solid transparent;
+    outline: none;
+    width: 100%;
+    /* margin-top: 30px; */
+    padding: 10px 20px;
+margin-left: 15px;
+margin-right: 15px;
+border-radius: 5px;
+}
+::placeholder{
+    color:rgba(18, 3, 32, 0.42);
+    font-size: medium;
+}
+.input .icon-password,.input .icon-email{
+    position: absolute;
+    left:17px;
+    bottom:12px;
+    
+}
+.input .icon-eye-slash{
+    position: absolute;
+    right:20px;
+    bottom:10px;
+}
+.submit #button{
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 10px 181px;
+    background-color: rgba(24, 67, 220, 0.683);
+    font-size:18px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.submit #button:hover{
+    background-color: #283593;
+    font-size:15px;
+    padding: 9.5px 180px;
+    border-radius: 6px;
+    color:white;
+}
+.bottom-container{
+    margin-top: 30px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color: rgba(37, 37, 204, 0.731);
+    font-size:14px;
+}
+.bottom-container span{
+    font-size:14px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+@media all and (min-width: 650px) and (max-width: 1150px){
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-top: 40px;
+}
+.formbody{
+    margin-top: 60px;
+    height: 465px;
+    width: 448px;
+    background-color:#E3F2FD;
+    border-radius: 10px;
+}
+   .formbody span h1{
+margin-top: 40px;
+text-align: center;
+font-weight: 560;
+letter-spacing: 0.3px;
+}
+   .form .input{
+position: relative;
+width: 100%;
+display: flex;
+margin-top:40px;
+}
+}
+@media all and (max-width: 649px){
+    .container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px;
+margin-top: 18px;
+}
+.container .formbody{
+margin-top: 55px;
+height: 450px;
+width: 400px;
+background-color: #E3F2FD;
+border-radius: 10px;
+}
+   .formbody span h1{
+margin-top: 40px;
+text-align: center;
+font-weight: 560;
+letter-spacing: 0.3px;
+}
+   .form .input{
+position: relative;
+width: 100%;
+display: flex;
+margin-top:40px;
+}
+.submit #button{
+display: block;
+margin: auto;
+border: none;
+padding: 9px 161px;
+background-color: rgba(24, 67, 220, 0.683);
+font-size:18px;
+letter-spacing: 1.5px;
+cursor: pointer;
+color: aliceblue;
+border-radius: 10px;
+}
+.submit #button:hover{
+background-color: #283593;
+font-size:15px;
+padding: 8.5px 160px;
+border-radius: 7px;
+color:white;
+}
+.bottom-container{
+margin-top: 30px;
+width: 90%;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;
+padding: 0px 10px;
+}
+
+.bottom-container a{
+text-decoration: none;
+color: rgba(37, 37, 204, 0.731);
+font-size:13.5px;
+}
+.bottom-container span{
+font-size:13.5px;
+}
+.bottom-container a:hover{
+text-decoration: underline;
+font-size: 13px;
+}
+}

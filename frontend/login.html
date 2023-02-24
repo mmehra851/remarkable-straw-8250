@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+<div class="container">
+    <div class="formbody">
+        <span><h1>Welcome Back</h1></span>
+        
+        <form  id="formData" action="">
+            <div class="form">
+                <div class="input email">
+                    <input type="email" placeholder="Enter Email" name="" id="inp-email">
+                    <i class="uil uil-envelope icon-email"></i>
+                </div>
+                <div class="dataValidation">
+                    <span >
+                        <p ></p>
+                    </span>
+                </div>
+                <div class="input password">
+                    <input type="password" placeholder="Enter Password" name="" id="inp-pass" required> 
+                    <!-- required -->
+                    <i class="uil uil-lock icon-password"></i>
+                    <i class="uil uil-eye-slash icon-eye-slash"></i>
+                </div>
+                <div class="input submit">
+                    <input type="submit"  value="Login" name="" id="button">
+    
+                </div>
+            </div>
+        </form>
+        <div class="bottom-container">
+            <span>Don't have an account?<a href="signup.html">Signup now</a></span><span><a id="forgotPass" href="forgotPass.html">Forgot Password</a></span>
+        </div>
+    </div>
+</div>
+<script src="login.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
